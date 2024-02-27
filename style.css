@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #EA3546, #662E9B, #43BCCD);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    min-width: 300px;
+    width: 380px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+label {
+    margin: 10px 0;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.input-icon {
+    border-bottom: solid 2px rgba(207, 207, 207, 0.479);
+    color: rgb(207, 207, 207);
+}
+
+input {
+    border-radius: 8px 8px 0 0;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    width: 94%;
+    height: 2.5rem;
+}
+
+input[type="submit"]{
+    width: 70%;
+    margin: 10px auto;
+    background-image: linear-gradient(to left, #EA3546, #662E9B, #43BCCD);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-image: linear-gradient(to left, #ea3547bb, #662e9bbd, #43bdcdb6);
+    transition: 0.7s ease-in-out;
+}
+
+form > a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+
+}
+
+form > a:hover {
+    text-decoration: underline;
+}
+
+.bottom {
+    padding: 20px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom > p {
+    font-size: 0.8em;
+}
+
+.bottom-links {
+    padding: 15px;
+    font-size: 1.7em;
+}
+
+.bottom-links a {
+   color: #662E9B;
+}
+
+#face-icon {
+    color: #3b5998;
+}
+
+#face-icon:hover {
+    transition: 0.3s ease;
+    background-color: #3b5998;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 100%;
+}
+
+#x-icon {
+    color: black;
+}
+
+#x-icon:hover {
+    transition: 0.2s ease;
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 100%;
+}
+
+#insta-icon {
+    color: #e1306c;
+}
+
+#insta-icon:hover {
+    transition: 0.3s ease;
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 100%;
+}
+
